@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div id="content">
+      <span class="slide">
+        <a href="#" onclick="openSlideMenu()">
+          <span
+          class="material-icons">view_sidebar</span>       
+        </a>
+      </span>
+      <div id="menu" class="navbar">
+        <a href="#" onclick="closeSlideMenu()">
+          <span class="material-icons">clear</span>
+        </a>
+        <ul>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+  </div>
+   
+  <div class="topbx">
+    <a href="gallery.html">
+      <button class="btn">Gallery</button>
+    </a>
+    <a href="cart.html">
+      <button class="btn">Blog</button>
+    </a>
+    <a href="vr.html">
+      <button class="btn">Rewards</button>
+    </a>
+  </div>
+  <div class="listings">
+    <div class="container">
+      <div class="header">
+        <div class="header-title">
+          <h2>Hungry for a bite? </h2>
+        </div>
+        <div class="header-viewOptions">
+          <div class="viewAll">
+            <span>View All</span>
+          </div>
+          <div class="viewMore">
+            <span class="arrow">
+              <i data-feather="arrow-left"></i>
+            </span>
+            <span class="arrow">
+              <i data-feather="arrow-right"></i>
+            </span>
+          </div>
+        </div>
+      </div>  
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Start your find now</h2>
+       
+
+      <div class = "meal-search-box">
+        <input type = "text" class = "search-control" placeholder="Enter an ingredient" id="search-txt">
+        <button type = "submit" class="search-btn" href="#"
+        id="search-btn">
+      <i class = "fas fa-search"></i>
+        </button>
+      </div>
+
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+          <!-- meal item -->
+          <-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "img/pizza.png" alt = "food">
+            </div>
+            
+            <div class = "meal-name">
+              <h3>Pizza</h3>
+              <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          <!-- end of meal item -->
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <-- <h2 class = "recipe-title">Meals Name Here</h2>
+          
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "recipe-meal-img">
+            <img src = "img/pizza.png" alt = "">
+          </div>
+          <div class = "recipe-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+      
+  
+
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
+
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
+
+
